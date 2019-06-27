@@ -1,5 +1,6 @@
 ---
 title: 'Un article programmé pour le futur '
+socialImage: /images/marquises-project.jpg
 date: '2022-06-18'
 tags:
   - demo-content
