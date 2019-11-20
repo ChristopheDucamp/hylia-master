@@ -37,11 +37,12 @@ use_front_matter_path: true
 file_template: ":filename:"
 instant_preview: true
 build:
-  preview_command: npm start
   preview_env:
   - ELEVENTY_ENV=staging
   preview_output_directory: src/dist
-  instant_preview_command: npm start
+  install_dependencies_command: npm install
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv/src"
+  instant_preview_command: npm start
+  preview_command: npm start
